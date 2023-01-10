@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "summerbreak"
+version = "0.1.0"
+description = ""
+authors = ["ThanKarab <tkarabatsis@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.2.2"
+Flask-SQLAlchemy="^3"
+pydantic="^1"
+black="^22"
+datetime = "^4.9"
+pytest="^7"
+requests="^2.27"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
